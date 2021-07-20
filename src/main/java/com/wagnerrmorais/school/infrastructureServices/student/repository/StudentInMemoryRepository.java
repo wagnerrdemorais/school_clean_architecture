@@ -1,4 +1,4 @@
-package com.wagnerrmorais.school.repository.student;
+package com.wagnerrmorais.school.infrastructureServices.student.repository;
 
 import com.wagnerrmorais.school.domain.student.CPF;
 import com.wagnerrmorais.school.domain.student.Student;

@@ -7,6 +7,8 @@ public class Student {
 
     private CPF cpf;
     private String name;
+
+    private String password;
     private Email email;
     private List<Phone> phones = new ArrayList<>();
 
@@ -26,6 +28,10 @@ public class Student {
 
     public String getName() {
         return name;
+    }
+
+    public String getPassword() {
+        return password;
     }
 
     public String getEmail() {
