@@ -1,4 +1,6 @@
-package school;
+package com.wagnerrmorais.school.domain.recommendation;
+
+import com.wagnerrmorais.school.domain.student.Student;
 
 import java.time.LocalDateTime;
 

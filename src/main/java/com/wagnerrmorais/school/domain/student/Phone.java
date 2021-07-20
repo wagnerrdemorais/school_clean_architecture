@@ -1,4 +1,4 @@
-package school;
+package com.wagnerrmorais.school.domain.student;
 
 public class Phone {
 

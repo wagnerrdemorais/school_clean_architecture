@@ -1,4 +1,4 @@
-package school;
+package com.wagnerrmorais.school.domain.student;
 
 import org.junit.jupiter.api.Test;
 

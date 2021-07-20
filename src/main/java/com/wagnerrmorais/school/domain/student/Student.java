@@ -1,4 +1,4 @@
-package school;
+package com.wagnerrmorais.school.domain.student;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,20 +16,20 @@ public class Student {
         this.email = email;
     }
 
-    public void addPhone(String code, String number){
+    public void addPhone(String code, String number) {
         this.phones.add(new Phone(code, number));
     }
 
-    public CPF getCpf() {
-        return cpf;
+    public String getCpf() {
+        return cpf.getNumber();
     }
 
     public String getName() {
         return name;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getEmailAddress();
     }
 
     public List<Phone> getPhones() {
