@@ -26,8 +26,8 @@ public class Student {
         this.phones.add(new Phone(code, number));
     }
 
-    public String getCpf() {
-        return cpf.getNumber();
+    public CPF getCpf() {
+        return cpf;
     }
 
     public String getName() {
