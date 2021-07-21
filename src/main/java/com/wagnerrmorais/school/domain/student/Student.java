@@ -3,6 +3,7 @@ package com.wagnerrmorais.school.domain.student;
 import java.util.ArrayList;
 import java.util.List;
 
+//Aggregate Root
 public class Student {
 
     private CPF cpf;
