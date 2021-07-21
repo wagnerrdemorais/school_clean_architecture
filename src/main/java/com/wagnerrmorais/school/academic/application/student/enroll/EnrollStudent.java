@@ -1,6 +1,6 @@
 package com.wagnerrmorais.school.academic.application.student.enroll;
 
-import com.wagnerrmorais.school.academic.domain.EventPublisher;
+import com.wagnerrmorais.school.shared.domain.event.EventPublisher;
 import com.wagnerrmorais.school.academic.domain.student.EnrolledStudent;
 import com.wagnerrmorais.school.academic.domain.student.Student;
 import com.wagnerrmorais.school.academic.domain.student.StudentRepository;

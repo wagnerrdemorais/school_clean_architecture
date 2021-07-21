@@ -1,8 +1,8 @@
-package com.wagnerrmorais.school.academic;
+package com.wagnerrmorais.school;
 
 import com.wagnerrmorais.school.academic.application.student.enroll.EnrollStudent;
 import com.wagnerrmorais.school.academic.application.student.enroll.EnrollStudentDTO;
-import com.wagnerrmorais.school.academic.domain.EventPublisher;
+import com.wagnerrmorais.school.shared.domain.event.EventPublisher;
 import com.wagnerrmorais.school.academic.domain.student.StudentEnrolledLogger;
 import com.wagnerrmorais.school.academic.infra.student.repository.StudentInMemoryRepository;
 

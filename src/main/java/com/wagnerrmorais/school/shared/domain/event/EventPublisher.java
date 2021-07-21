@@ -1,6 +1,4 @@
-package com.wagnerrmorais.school.academic.domain;
-
-import com.wagnerrmorais.school.academic.domain.student.Event;
+package com.wagnerrmorais.school.shared.domain.event;
 
 import java.util.ArrayList;
 import java.util.List;

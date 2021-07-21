@@ -1,6 +1,7 @@
 package com.wagnerrmorais.school.academic.domain.student;
 
-import com.wagnerrmorais.school.academic.domain.EventListener;
+import com.wagnerrmorais.school.shared.domain.event.Event;
+import com.wagnerrmorais.school.shared.domain.event.EventListener;
 
 import java.time.format.DateTimeFormatter;
 
