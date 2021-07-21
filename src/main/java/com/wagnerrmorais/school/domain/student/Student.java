@@ -19,6 +19,9 @@ public class Student {
     }
 
     public void addPhone(String code, String number) {
+        if(phones.size() == 2){
+            throw new MaximumNumberOfPhonesException("Maximum of phones reached!");
+        }
         this.phones.add(new Phone(code, number));
     }
 
